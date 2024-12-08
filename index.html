@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+     <nav id="navbar">
+    <header>
+      <h1>Technical Documentation</h1>
+    </header>
+    <a href="#HTML_Basics" class="nav-link">HTML Basics</a>
+    <a href="#CSS_Styling" class="nav-link">CSS Styling</a>
+    <a href="#JavaScript_Intro" class="nav-link">JavaScript Intro</a>
+    <a href="#React_Tutorial" class="nav-link">React Tutorial</a>
+    <a href="#NodeJS_Basics" class="nav-link">NodeJS Basics</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="HTML_Basics">
+      <header>
+        <h2>HTML Basics</h2>
+      </header>
+      <p>HTML stands for HyperText Markup Language. It is the standard language used to create web pages.</p>
+      <code>&lt;html&gt;</code>
+      <p>HTML is made up of elements, which are represented by tags.</p>
+      <code>&lt;head&gt;</code>
+      <p>The head section contains meta information, links to CSS files, and JavaScript files.</p>
+      <code>&lt;body&gt;</code>
+      <ul>
+        <li>&lt;header&gt;</li>
+        <li>&lt;footer&gt;</li>
+        <li>&lt;main&gt;</li>
+        <li>&lt;section&gt;</li>
+        <li>&lt;article&gt;</li>
+      </ul>
+    </section>
+    <section class="main-section" id="CSS_Styling">
+      <header>
+        <h2>CSS Styling</h2>
+      </header>
+      <p>CSS stands for Cascading Style Sheets. It is used to style HTML elements on a webpage.</p>
+      <code>body { background-color: lightblue; }</code>
+      <p>CSS rules consist of selectors and declaration blocks.</p>
+      <code>h1 { color: blue; }</code>
+      <p>CSS can be added to HTML in three ways: inline, internal, and external.</p>
+      <ul>
+        <li>Inline styles</li>
+        <li>Internal styles</li>
+        <li>External styles</li>
+      </ul>
+    </section>
+    <section class="main-section" id="JavaScript_Intro">
+      <header>
+        <h2>JavaScript Intro</h2>
+      </header>
+      <p>JavaScript is a programming language used to create interactive effects within web browsers.</p>
+      <code>let x = 5;</code>
+      <p>JavaScript can be used to manipulate HTML elements and respond to user events.</p>
+      <code>document.getElementById("demo").innerHTML = "Hello, World!";</code>
+      <ul>
+        <li>Variables</li>
+        <li>Functions</li>
+        <li>Events</li>
+        <li>Loops</li>
+        <li>Objects</li>
+      </ul>
+    </section>
+    <section class="main-section" id="React_Tutorial">
+      <header>
+        <h2>React Tutorial</h2>
+      </header>
+      <p>React is a JavaScript library for building user interfaces, developed by Facebook.</p>
+      <code>import React from 'react';</code>
+      <p>It allows the creation of reusable UI components.</p>
+      <code>const MyComponent = () => { return <h1>Hello React!</h1>; }</code>
+      <ul>
+        <li>Components</li>
+        <li>JSX</li>
+        <li>State</li>
+        <li>Props</li>
+        <li>Hooks</li>
+      </ul>
+    </section>
+    <section class="main-section" id="NodeJS_Basics">
+      <header>
+        <h2>NodeJS Basics</h2>
+      </header>
+      <p>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.</p>
+      <code>const http = require('http');</code>
+      <p>It allows JavaScript to be run on the server side.</p>
+      <code>http.createServer((req, res) => { res.write('Hello World'); res.end(); }).listen(8080);</code>
+      <ul>
+        <li>Modules</li>
+        <li>Express</li>
+        <li>Asynchronous</li>
+        <li>APIs</li>
+        <li>Event-driven</li>
+      </ul>
+    </section>
+  </main>
+
+
+</body>
+</html>
